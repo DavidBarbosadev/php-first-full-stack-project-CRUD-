@@ -1,0 +1,70 @@
+
+
+.New_player{
+
+    height:auto;
+    width:480px;
+    color: #000;
+    background: rgba(236,77,154,0.75);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-30%);
+    box-sizing: border-box;
+}
+
+
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 6px 10px 6px 20px;
+    text-align: center;
+    }
+
+
+
+input[type=password] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 6px 10px 6px 20px;
+    text-align: center;
+    }
+
+input[type=email] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 6px 10px 6px 20px;
+    text-align: center;
+    }
+
+input[type=submit] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 6px 10px 6px 20px;
+    text-align: center;
+    margin-top: 20px;
+    }
+
+h3 {
+    font-size: 20px;
+    font-style: italic;
+    font-family: sans-serif;
+}
+h2 {
+    font-size: 24px;
+    font-style: unset;
+    font-family: sans-serif;
+    text-align: center;
+}

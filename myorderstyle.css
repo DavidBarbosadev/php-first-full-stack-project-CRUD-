@@ -1,0 +1,282 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section { 
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000; 
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;   
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+
+
+body{
+    background: url(adminbackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-wrapper {
+
+    margin-right: 20px;
+}
+
+header nav {
+    width: 100%;
+    height: 100px;
+    background-color:#ec499a;
+}
+
+header nav ul {
+  float: left;
+}
+header nav ul li {
+    float: left;
+    list-style: none;
+    position: relative;
+}
+header nav ul li a {
+    display: block;
+    font-family: sans-serif;
+    color: whitesmoke;
+    font-size: 24px;
+    padding: 28px 10px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+header nav ul li ul {
+    display: none;
+    position: absolute;
+    background-color:#ec499a;
+    padding: 10px;
+    border-radius:0px 0px 4px 4px;
+}
+
+header nav ul li:hover ul {
+    display: block;
+}
+
+header nav ul li ul li a {
+    padding:8px;
+}
+
+header nav ul li ul li{
+    width: 200px;
+    border-radius: 4px;
+}
+header nav ul li ul li a:hover {
+    padding:8px;
+    background-color: black;
+    color: #ec499a;
+}
+
+
+header img {
+    float: left;
+    height: 100px;
+    margin-right: 50px;
+}
+
+header .nav-login {
+    float: right;
+}
+
+ #logout a {
+    float: right;
+    text-decoration: none;
+    margin-top: 15px;
+    margin-right: 10px;
+    font-size: 20px;
+    color: whitesmoke; 
+}
+
+.container{
+
+    width: 1100px;
+    margin: 100px auto;
+    box-sizing: border-box;
+}
+.container .column {
+    width: calc(40% - 20px);
+    float: left;
+    padding: 0px 0px 20px;
+    margin: 0 15px;
+    box-sizing:border-box;
+    text-align: center;
+    border-radius: 8px;
+    background: rgba(196, 80, 18, 0.842); 
+    overflow: hidden;
+    box-shadow: 0 10px 10px rgba(0,0,0, 0.4);
+    transition: .5s;
+    margin-left: 75px;
+}
+section article .title{
+    padding: 15px 0;
+}
+
+.main-wrapper h1{
+   
+    font-size: 24px;
+    color: #ccc;
+    margin-right: 80px;
+}
+.title h3 {
+    Color:#ec499a;
+    text-align: center;
+    font-size: 26px;
+    text-transform: uppercase;
+}
+
+.donut1  {
+    width: 100px;
+    height: 100px;
+}
+
+header .nav-logout {
+    float: right;
+}
+
+header .nav-logout form {
+
+    float: left;
+    padding-top: 20px;
+    margin-right: 40px;
+
+    width: 100px;
+
+}
+
+.container h1{
+    text-align: center;
+    font-size: 40px;
+    color:#ec499a;
+}
+
+
+.form-box{
+    height:auto;
+    width:360px;
+    color: #000;
+    background: #ec499a;
+    top: 134%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-30%);
+    box-sizing: border-box;
+    border-radius: 4px;
+    box-shadow: 0 10px 10px rgba(0,0,0, 0.4);
+    margin-bottom: 30px;
+}
+
+input[type=text] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 6px 10px 6px 20px;
+    text-align: center;
+    }
+
+input[type=button] {
+    width: 100%;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    padding: 6px 10px 6px 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.container .form-box h3{ 
+    font-size: 18px;
+    color: #f57a37;
+    text-align: center;
+
+}
